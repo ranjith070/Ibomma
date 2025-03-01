@@ -1,0 +1,254 @@
+*{
+    margin: 0px;
+    border: border-box;
+    
+    
+    
+}
+
+
+body{
+    background-color: black;
+    
+}
+/**header section**/
+header{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(31, 28, 28);
+    
+    border-bottom: 1px solid rgb(85, 80, 80);
+    
+}
+    
+.navbar{
+    height: inherit;
+    width: 98%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}  
+
+.nav-logo{
+    width: 200px;
+    height: 60px;
+    justify-content: center;
+    padding-left: 10px;
+    overflow: hidden;
+    
+    
+    
+    
+}
+.logo{
+    
+    width:100% ;
+    background-position: center;
+    background-size: cover;
+    height: 60px;
+    
+}
+
+.nav-search{
+    height: 35px;
+    width: 200px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-color: rgb(132, 114, 114);
+    background-color:rgb(31, 28, 28) ;
+    
+    
+
+    
+   
+}
+.search-bar1{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    background-color: rgb(110, 77, 77);
+    margin-right: 10px;
+    border-radius: 20px ;
+    border-style:none;
+    box-sizing: border-box;
+    border-color: rgb(223, 223, 42);
+}
+.icon{
+    background-color: rgb(205, 222, 21);
+    color: black;
+    padding-right: 10px;
+    border-color: black;
+    border-top-right-radius: 20px; 
+    border-bottom-right-radius: 20px; 
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+    
+}
+/**header end**/
+.navbar2{
+    display: flex;
+    background-color: transparent;
+    margin-top: 0.4px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    
+}
+/**dropdown-content**/
+.vertical-bar {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 160px;
+    box-shadow: -10px 0px 10px 0px rgba(164, 134, 134, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    margin-left: -10px;
+    background-color: black;
+    border:1px solid rgb(3, 3, 3)
+  }
+  #search{
+    cursor: pointer;
+  }
+  .dropdown-content a:hover {background-color: #5e5d5d}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .vertical-bar {
+    background-color: red;
+  }
+/**end**/
+
+
+@media (min-width:993px) {
+    .dropdown,#search{
+        display:none;
+        width: 40px;
+        height: 40px;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        background-color: yellow;
+    }
+}
+@media (max-width: 992px) {
+    .navbar2,.search-bar1{
+      display: none;
+
+    }
+    .navbar {
+        justify-content: space-around;
+
+    }
+    .vertical-bar,#search{
+        display:flex;
+        width: 40px;
+        height: 40px;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        background-color: yellow;
+    }
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+#move-right{
+    margin-left: 40px;
+}
+
+/**movie-container**/
+.movie-container{
+    width: 95%;
+    height:500px;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+align-items: center;
+    
+}
+.bug-report{
+    color: white;
+    font-size: 35px;
+    padding-left: 30px;
+    width: 85%;
+    height: 70%;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.not-playing{
+    font-size: 15px;
+    padding-top: 20px;
+    line-height: 40PX;
+    font-weight: bold;
+    color: lightgray;
+}
+ol {
+    font-size: 15px;
+    padding-top: 20px;
+    color: lightgray;
+}
+span{
+    color: yellow;
+}
+.final-para{
+    font-size: 15px;
+    padding-top: 40px;
+    color: lightgray;
+}
+/**footer**/
+footer{
+    height: 60px;
+    display: flex;
+    background-color: rgb(31, 28, 28);
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.footer1{
+    display: flex;
+    margin-left: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+
+}
+.copyright{
+    display: flex;
+    margin-right: 10px;
+    width: 200px;
+    align-items: center;
+    
+
+}
+
+/**end**/
